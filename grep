@@ -1,0 +1,18 @@
+
+/**
+* That is a tool that we can give a string and a path
+*
+* it’ll print only the lines that contain the given string
+*
+* Let’s call it grrs (pronounced “grass”)
+**/
+
+cat test.txt
+foo: 10
+bar: 20
+baz: 30
+$ grrs foo test.txt
+foo: 10
+$ grrs --help
+[some help text explaining the available options]
+
